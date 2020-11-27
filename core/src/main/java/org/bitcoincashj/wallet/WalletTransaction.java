@@ -9,7 +9,6 @@ import org.bitcoincashj.core.Transaction;
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
- * Stores data about a transaction that is only relevant to the {@link org.bitcoincashj.wallet.Wallet} class.
  */
 public class WalletTransaction {
     public enum Pool {
